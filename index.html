@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<meta charset="UTF-8">
+  	<title>Bootstrap: Grid System</title>
+  	<link rel="stylesheet" href="css/bootstrap.min.css">
+  	<link rel="stylesheet" href="css/main.css">
+
+      <!-- HTML5 Shim and Respond.js Agrega soporte para elementos HTML5 y media quieries en IE8 -->
+      <!-- ADVERTENCIA: Respond.js no soporta que ejecutes tu código via file:// -->
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->	
+  </head>
+  <body>
+  	  <!-- Inserta tu código aqui -->
+
+  	  <!-- Incluir todos tus scripts apartir de este punto -->
+      <!-- jQuery (necesario para que funcionen los componentes de Bootstrap) -->
+      <script src="js/jquery-1.11.3.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <div class="container-fluid">
+        <header>
+          <div class="row">
+            <div class="col-xs-6 col-sm-6 col-lg-5">
+              <h1>Site name</h1><!--titulo Site-->
+            </div>
+            <div class="col-xs-6 col-sm-6 col-lg-3">
+              <ul><!--seccion de icon enlaces-->
+                <li><span class="glyphicon glyphicon-home"></span><a href="#"> Noticias</a></li>
+                <li><span class="glyphicon glyphicon-home"></span><a href="#"> Enlaces RSS</a></li>
+              </ul>
+            </div>  
+            <div class="hidden-xs hidden-sm col-lg-4">  
+              <ul>  
+                <li><input type="search" name="busqueda"></li>
+                <li><input type="submit" value="Buscar" class="submit"></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-lg-12">
+              <nav class="navbar navbar-default navbar-inverse">
+                <div class="container-fluid fondoPos">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed"  data-toggle="collapse" data-target="#navbar1">
+                        <span class="sr-only">Menu</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                  </div> 
+                  <div class="collapse navbar-collapse" id="navbar1">
+                    <ul class="nav navbar-nav"><!--navegador-->
+                      <li class="active"><a href="#">Bienvenido</a></li>
+                      <li><a href="#">Actualidades</a></li>
+                      <li><a href="#">En directo</a></li>
+                      <li><a href="#">Reporte financiero</a></li>
+                      <li><a href="#">Nuestra oferta</a></li>
+                      <li><a href="#">De nosotros a ustedes</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>  
+            </div>
+          </div>
+        </header>
+        <section>
+          <div class="row">
+            <div class="col-xs-12 col-sm-7 col-md-5 col-lg-5"><!--primera seccion izq-->
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-lg-12"><!--seccion historias destacadas-->
+                  <h4>Historia destacada</h4>
+                  <p><span>Artículo</span> | Publicado el 13-10-95</p>
+                  <h5>Lorem ipsum dolor sit amet</h5>
+                  <p> consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium</p>
+                  <div class="row">
+                    <div class="col-xs-5 col-sm-5 col-lg-5"><!--link con iconos-->
+                      <a href="#"><span class="glyphicon glyphicon-bookmark"></span> Ver más...</a>
+                    </div>
+                    <div class="col-xs-7 col-sm-7 col-lg-7">
+                      <span class="glyphicon glyphicon-arrow-right"></span> Etiquetas: <a href="#">lofjsc</a><a href="#"> lofjsc</a><a href="#"> lofjsc</a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-lg-12">
+                      <hr><!--linea-->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">        <!--seccion Webzone-->
+                <div class="col-xs-12 col-sm-12 col-lg-12">
+                  <div class="row">
+                    <div class="col-xs-4 col-sm-4 col-lg-4">
+                      <h4>Webzone</h4><!--webzone con fondo-->
+                    </div>
+                    <div class="col-xs-8 col-sm-8 col-lg-8">
+                      <p><a href="#">Preguntas</a> | publicado el 09/28/49</p><!--link preguntas-->
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-lg-12">
+                      <h5>Lorem ipsum dolor sit amet</h5>
+                      <p>consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium</p>
+                      <div class="row">
+                        <div class="col-xs-5 col-sm-5 col-lg-5">
+                          <a href="#"><span class="glyphicon glyphicon-bookmark"></span> Ver más...</a><!--link con iconos-->
+                        </div>
+                        <div class="col-xs-7 col-sm-7 col-lg-7">
+                          <span class="glyphicon glyphicon-arrow-right"></span> Etiquetas: <a href="#">lofjsc</a><a href="#"> lofjsc</a><a href="#"> lofjsc</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row"><!--linea-->
+                    <div class="col-xs-12 col-sm-12 col-lg-12">
+                      <hr>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row"><!--seccion de articulo foto-->
+                <div class="col-xs-12 col-sm-12 col-lg-12">
+                  <p><b>Artículo</b> | Publicado el 13-10-95</p>
+                  <h5>Donec quam felis</h5>
+                  <img src="img/Chvrches_Main1.jpg" alt="foto" class="img-responsive"><!--foto-->
+                  <p>consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium</p>
+                  <div class="row">
+                    <div class="col-xs-5 col-sm-5 col-lg-5">
+                      <a href="#"><span class="glyphicon glyphicon-bookmark"></span> Ver más...</a><!--link con iconos-->
+                    </div>
+                    <div class="col-xs-7 col-sm-7 col-lg-7">
+                      <span class="glyphicon glyphicon-arrow-right"></span> Etiquetas: <a href="#">lofjsc</a><a href="#"> lofjsc</a><a href="#"> lofjsc</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row"><!--linea-->
+                <div class="col-xs-12 col-sm-12 col-lg-12">
+                  <hr>
+                </div>
+              </div>
+              <div class="row marBot">
+                <div class="col-xs-12 col-sm-12 col-lg-12"><!--seccion ultimo parrafo-->
+                  <h5>Lorem ipsum dolor sit amet</h5>
+                  <p>consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium</p>
+                  <div class="row">
+                    <div class="col-xs-5 col-sm-5 col-lg-5"><!--link con iconos-->
+                      <a href="#"><span class="glyphicon glyphicon-bookmark"></span> Ver más...</a>
+                    </div>
+                    <div class="col-xs-7 col-sm-7 col-lg-7">
+                      <span class="glyphicon glyphicon-arrow-right"></span> Etiquetas: <a href="#">lofjsc</a><a href="#"> lofjsc</a><a href="#"> lofjsc</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4"><!--segunda seccion en medio-->
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-lg-12"><!--seccion de video-->
+                  <div class="fondoGris"><!--fondo video-->
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-12 col-lg-12"><!--historias destacadas-->
+                        <h4>Historia destacada</h4>
+                        <iframe width="100%" height="335" src="https://www.youtube.com/embed/uJw0vVKWXaA" frameborder="0" allowfullscreen></iframe><!--video-->
+                        <p>Claire Dupfd</p>
+                        <p>consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-xs-6 col-sm-6 col-lg-6">
+                        <p>publicado el 12-34-56</p>
+                      </div>
+                      <div class="col-xs-6 col-sm-6 col-lg-6">
+                        <a href="#"><span class="glyphicon glyphicon-bookmark"></span> Ver más...</a><!--link-->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-lg-12"><!--seccion agenda-->
+                  <h4>Agenda</h4>
+                </div>  
+                <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-lg-4"><!--1ra fila de agendas-->
+                    <div class="fondoFech"><!--cuadro con fecha-->
+                      <p>23</p>
+                      <p>Enero</p>
+                    </div>
+                  </div>
+                  <div class="col-xs-8 col-sm-8 col-lg-8">
+                    <p>onsectetuer adipiscing elit.</p>
+                    <p>onsectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.Cum sociis</p>
+                    <p>De 23 a 54 diciembre</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-lg-4"><!--segunda fila de agendas-->
+                    <div class="fondoFech"><!--cuadro con fecha-->
+                      <p>23</p>
+                      <p>Enero</p>
+                    </div>
+                  </div>
+                  <div class="col-xs-8 col-sm-8 col-lg-8">
+                    <p>onsectetuer adipiscing elit.</p>
+                    <p>onsectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.Cum sociis</p>
+                    <p>De 23 a 54 diciembre</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-lg-4"><!--tercera fila de agendas-->
+                    <div class="fondoFech"><!--cuadro con fecha-->
+                      <p>23</p>
+                      <p>Enero</p>
+                    </div>
+                  </div>
+                  <div class="col-xs-8 col-sm-8 col-lg-8">
+                    <p>onsectetuer adipiscing elit.</p>
+                    <p>onsectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.Cum sociis</p>
+                    <p>De 23 a 54 diciembre</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-lg-4"><!--cuarta fila de agendas-->
+                    <div class="fondoFech"><!--cuadro con fecha-->
+                      <p>23</p>
+                      <p>Enero</p>
+                    </div>
+                  </div>
+                  <div class="col-xs-8 col-sm-8 col-lg-8">
+                      <p>onsectetuer adipiscing elit.</p>
+                      <p>onsectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.Cum sociis</p>
+                      <p>De 23 a 54 diciembre</p>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="row"><!--seccion informacion-->
+                <div class="col-xs-12 col-sm-12 col-lg-12">
+                  <h4>Más información</h4>
+                </div>
+              </div>
+              <div class="row"><!--Localidades-->
+                <div class="col-xs-12 col-sm-12 col-lg-12">
+                  <p>Localidades</p>
+                  <p class="">onsectetuer adipiscing elit.</p>
+                  <p>onsectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                  <p> Aenean massa.Cum sociis</p>
+                </div>
+              </div>
+              <div class="row"><!--hospimedia-->
+                <div class="col-xs-12 col-sm-12 col-lg-12">
+                  <p>Hospimedia</p>
+                  <p class="">onsectetuer adipiscing elit.</p>
+                  <p>onsectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                  <p> Aenean massa.Cum sociis</p>
+                </div>
+              </div>
+            </div>
+            <div class="hidden-xs hidden-sm col-md-3 col-lg-3"><!--Tercera seccion derecha-->
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-lg-12">
+                  <p class="">Más información</p>
+                  <ul>
+                    <li><a href="#"><span class="glyphicon glyphicon-bookmark"></span> Finanzas y fiscalización</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-bookmark"></span> Inversión y equipos</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-bookmark"></span> Medio Ambiente</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-bookmark"></span> Habitat/Urbanismo</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-bookmark"></span> Social/Servicios</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-bookmark"></span> Sanidad</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-bookmark"></span> Transporte</a></li>
+                  </ul>
+                  <hr>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-lg-12">
+                  <div class="fondoGris marBot"><!--primera caja magazine-->
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-12 col-lg-12">
+                        <h5>MAGAZINE</h5>
+                        <h5>ECODEF!</h5>
+                        <p>enidkj</p>
+                        <p>consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium</p>
+                      </div>
+                    </div>
+                    <div class="row padTtop">
+                      <div class="col-xs-12 col-sm-12 col-lg-12">
+                        <p>enidkj</p>
+                        <p>consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>  
+              </div>  
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-lg-12">
+                  <div class="fondoGris marBot"><!--segunda caja magazine-->
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-12 col-lg-12">
+                        <h5>MAGAZINE</h5>
+                        <h5>ECODEF!</h5>
+                        <p>enidkj</p>
+                        <p>consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium</p>
+                      </div>
+                    </div>
+                    <div class="row padTtop">
+                      <div class="col-xs-12 col-sm-12 col-lg-12">
+                        <p>enidkj</p>
+                        <p>consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="fondoGris">
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-12 col-lg-12">
+                        <p>Nueva generación de la internet</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>    
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer><!--footer-->
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-lg-12">
+              <hr><!--linea-->
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6 col-sm-3 col-lg-2"><!--primera lista-->
+              <h6>Rubros</h6>
+              <ul>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Actualidades</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">En directo</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Reporte fonanciero</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Nuestra oferta</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">De nosotros a ustedes</a></li>
+              </ul>
+            </div>
+            <div class="hidden-xs hidden-sm col-lg-2"><!--segunda lista-->
+              <h6>Expertices</h6>
+              <ul>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Finanzas y fiscalización</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Inversión y equipos</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#"></a> Medio Ambiente</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Habitat/Urbanismo</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Social/Servicios</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Sanidad</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Transporte</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-lg-2"><!--3ra lista-->
+              <h6>Suscripción</h6>
+              <ul>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Todo el flujo</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Flujo RSS para expertos</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Noticias</a></li>
+              </ul> 
+            </div>
+            <div class="clearfix visible-xs-block"></div>
+            <div class="col-xs-6 col-sm-3 col-lg-3"><!--4ta lista-->
+              <h6>Nosotros</h6>
+              <ul>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Quienes somos?</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Plan del sitio</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Información legal</a></li>
+              </ul>  
+            </div>
+            <div class="col-xs-6 col-sm-3 col-lg-3"><!--5ta lista-->
+              <h6>contactanos</h6>
+              <ul>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Contáctanos</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">FAQ</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#">Haga sus preguntas</a></li>
+              </ul>  
+            </div>
+          </div>
+        </footer>
+      </div>
+  </body>
+</html>

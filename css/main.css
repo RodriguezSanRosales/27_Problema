@@ -1,0 +1,62 @@
+/* Inserta tu código aqui */
+/*navegador*/
+.fondoPos {
+	background-color: #D8D8D8;
+	
+
+}
+
+header ul li {
+	display: inline-block;
+	padding-top: 10%; 
+}
+
+/*links*/
+
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: #A9E2F3;
+}
+h4 {
+	background-color: #BDBDBD;
+	padding: 3%;
+    width: 60%;
+    display: block;
+}
+h5 {
+	font-weight: bold;
+}
+.fondoGris {
+	background-color: #D8D8D8;
+	padding: 2%;
+
+
+}
+.marBot {
+	margin-bottom: 10%;
+
+}
+/* fechas*/
+.fondoFech {
+	background-color: #D8D8D8;
+	padding: 5%;
+	text-align: center;
+	margin-left: 11%;
+}
+.padLe {
+	padding-left: 5%;
+}
+.padTtop {
+	padding-top: 5%;
+}
+
+hr {
+	border: 1px dashed;
+}
+
+footer{
+  padding: 5%; 
+}
